@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Javascript Practice</title>
-</head>
-    <button>Press me!</button>
-    <div id="greeting"></div>
-    <div id="cool"></div>
-<body>
-    <script src="script.js"></script>
-        const button = document.querySelector("button");
+const button = document.querySelector("button");
 
         function hello() {
             const name = prompt("Who are you?");
@@ -31,7 +17,4 @@
             }
         }
 
-        button.addEventListener("click", hello); //this is a note
-    </script>
-</body>
-</html>
+button.addEventListener("click", hello); //this is a note
